@@ -1,5 +1,6 @@
+let x = 0
 input.onGesture(Gesture.Shake, function () {
-    let x = 0
+    x = randint(0, 2)
     if (x == 0) {
         basic.showIcon(IconNames.SmallSquare)
     } else if (x == 1) {
